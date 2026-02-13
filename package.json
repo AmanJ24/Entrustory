@@ -1,0 +1,12 @@
+{
+  "name": "entrustory",
+  "private": true,
+  "workspaces": [
+    "apps/api"
+  ],
+  "scripts": {
+    "dev:api": "npm --workspace apps/api run dev",
+    "test:api": "npm --workspace apps/api test",
+    "dev:web": "node apps/web/server.js"
+  }
+}

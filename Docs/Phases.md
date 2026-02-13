@@ -1,5 +1,5 @@
 
-# WORKPROOF
+# ENTRUSTORY
 
 # MASTER PHASE-WISE PRODUCT & ARCHITECTURE ROADMAP
 
@@ -11,7 +11,7 @@
 
 ## 0.1 Vision Definition
 
-WorkProof is a cryptographically verifiable proof-of-work and digital ownership infrastructure that provides tamper-evident timelines, version-linked evidence sets, and public verification capability.
+Entrustory is a cryptographically verifiable proof-of-work and digital ownership infrastructure that provides tamper-evident timelines, version-linked evidence sets, and public verification capability.
 
 ## 0.2 Target Users
 
@@ -502,7 +502,7 @@ Store anchor hash reference in DB.
 
 # FINAL PRODUCT STATE
 
-WorkProof becomes:
+Entrustory becomes:
 
 A cryptographically signed, append-only, privacy-preserving digital ownership infrastructure platform ready for commercial SaaS deployment.
 
