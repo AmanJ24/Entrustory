@@ -14,8 +14,8 @@ Define production-oriented runtime architecture for Entrustory using:
 ```mermaid
 flowchart LR
     subgraph Client[Client Tier]
-        UI[Web App<br/>React + TS]
-        WC[Web Crypto API<br/>SHA-256 / AES-256-GCM]
+        UI[Web App\nReact + TS]
+        WC[Web Crypto API\nSHA-256 / AES-256-GCM]
         UI --> WC
     end
 
@@ -23,7 +23,7 @@ flowchart LR
         GW[Express API Gateway]
         VC[Version Service]
         VF[Verification Service]
-        SG[Signature Service<br/>Ed25519]
+        SG[Signature Service\nEd25519]
         GW --> VC
         GW --> VF
         VC --> SG
@@ -39,7 +39,7 @@ flowchart LR
     subgraph Ops[Ops Tier]
         AL[Audit/Verification Logs]
         BK[Backup + Restore]
-        RL[Rate Limit Layer<br/>(redis planned)]
+        RL[Rate Limit Layer\n(redis planned)]
     end
 
     UI -->|JWT| GW

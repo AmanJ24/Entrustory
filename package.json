@@ -6,7 +6,6 @@
   ],
   "scripts": {
     "dev:api": "npm --workspace apps/api run dev",
-    "test:api": "npm --workspace apps/api test",
-    "dev:web": "node apps/web/server.js"
+    "test:api": "npm --workspace apps/api test"
   }
 }

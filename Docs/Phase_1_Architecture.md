@@ -13,18 +13,18 @@ This document begins **Phase 1** from the roadmap and provides the first-pass de
 
 ```mermaid
 flowchart TB
-    U[User Browser<br/>React + TypeScript + Vite] -->|HTTPS| A[API Layer<br/>Node.js + Express]
-    U -->|Client-side SHA-256<br/>(Optional AES-256-GCM)| C[Crypto Client Module]
+    U[User Browser\nReact + TypeScript + Vite] -->|HTTPS| A[API Layer\nNode.js + Express]
+    U -->|Client-side SHA-256\n(Optional AES-256-GCM)| C[Crypto Client Module]
     C -->|Hashes / encrypted payload metadata| A
 
     A --> DB[(Supabase PostgreSQL)]
     A --> ST[(Supabase Storage)]
     A --> AU[(Supabase Auth)]
 
-    A --> SI[Server Integrity Module<br/>Deterministic Merkle + Ed25519 signing]
+    A --> SI[Server Integrity Module\nDeterministic Merkle + Ed25519 signing]
     SI --> DB
 
-    A --> LOG[Monitoring & Logging<br/>Audit + verification logs]
+    A --> LOG[Monitoring & Logging\nAudit + verification logs]
     DB --> BK[Backup & Recovery]
     ST --> BK
 ```
