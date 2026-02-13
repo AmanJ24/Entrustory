@@ -5,7 +5,7 @@ First impression:
 
 ## Hero Section
 
-Top left: WorkProof logo
+Top left: Entrustory logo
 Top right:
 
 * Login
@@ -53,7 +53,7 @@ Each step has small icon + short description.
 
 ---
 
-## Section: Why WorkProof?
+## Section: Why Entrustory?
 
 3 columns:
 
@@ -127,7 +127,7 @@ Dark background. Clean. No distractions.
 # 3️⃣ Sign Up Page
 
 Title:
-Create Your WorkProof Account
+Create Your Entrustory Account
 
 Fields:
 Full Name

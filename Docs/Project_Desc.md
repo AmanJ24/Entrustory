@@ -1,4 +1,4 @@
-# WORKPROOF
+# ENTRUSTORY
 
 ## Project Description Document
 
@@ -8,7 +8,7 @@
 
 ## 1. Executive Summary
 
-WorkProof is a cryptographically secure SaaS platform designed to generate tamper-evident, verifiable proof-of-work records for digital assets without exposing original content.
+Entrustory is a cryptographically secure SaaS platform designed to generate tamper-evident, verifiable proof-of-work records for digital assets without exposing original content.
 
 It enables individuals, teams, and organizations to establish provable timelines of ownership using client-side hashing, deterministic Merkle trees, server-side digital signatures, and immutable audit logs.
 
@@ -39,7 +39,7 @@ There is no widely adopted, privacy-preserving infrastructure that provides cryp
 
 ## 3. Solution Overview
 
-WorkProof provides a trust-minimized system that:
+Entrustory provides a trust-minimized system that:
 
 1. Hashes files client-side using SHA-256.
 2. Groups file hashes into deterministic Merkle trees.
@@ -158,7 +158,7 @@ Tracks:
 
 ## 6. Trust Model
 
-WorkProof minimizes trust dependency by:
+Entrustory minimizes trust dependency by:
 
 * Performing hashing on the client.
 * Enforcing append-only timeline logs.
@@ -259,7 +259,7 @@ The platform is designed for:
 
 ## 11. Compliance & Legal Framework
 
-WorkProof will implement:
+Entrustory will implement:
 
 * Terms of Service
 * Privacy Policy
@@ -272,7 +272,7 @@ WorkProof will implement:
 
 ## 12. Long-Term Vision
 
-WorkProof evolves into:
+Entrustory evolves into:
 
 A global digital integrity infrastructure layer that professionals rely on to establish verifiable ownership and historical authenticity of digital work.
 
@@ -288,12 +288,12 @@ Future expansions may include:
 
 ## 13. Strategic Positioning
 
-WorkProof is not:
+Entrustory is not:
 
 * A file storage service
 * A simple hash generator
 * A document management system
 
-WorkProof is:
+Entrustory is:
 
 A cryptographically verifiable, privacy-preserving proof-of-work infrastructure platform.
